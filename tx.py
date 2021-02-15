@@ -2,28 +2,12 @@
 import sys
 import base64
 import requests
-import urllib2, urllib
-import cookielib
 import re
 import os
 from platform import system
 import binascii
 from time import time as timer	
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
-def loadLst(fileName, lstName):
-    f = open(fileName, 'r')
-    for line in f:
-        lstName.append(line.replace('\r\n',''))
-    f.close()
-os.system('clear')
-os.system ('toilet -f standard "L I S A" -F gay')
-print(""" \033[36;2m
-Hack21Tim Tools 
-""")
-print('___________________________________________________')
-print("""
-\033[36;1mTOOLS \033[32;1mTalerixXk \033[35;1m By udu.H-Ck3r \n""")
-requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 requests_sent = 0
 char_requests = 0
